@@ -1,0 +1,31 @@
+.Footer {
+   border-top: 1px solid #ddd;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 15px;
+}
+.AmountItem {
+   width: 20%;
+   font-size: 14px;
+   text-align: center;
+}
+.Filter {
+   width: 80%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+.Filter button {
+   padding: 6px 12px;
+   font-size: 18px;
+   background-color: #fff;
+   /* opacity: 0.9; */
+   border: none;
+   outline: none;
+   cursor: pointer;
+}
+button.activeBtn {
+   border: 1px solid #ddd;
+   border-radius: 5px;
+}
